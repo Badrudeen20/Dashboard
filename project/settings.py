@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--4=4_*ufargitl5)3pych7=otxas0n73qjy4cvqqhg=+ojviyx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-ALLOWED_HOSTS = ["salah99.pythonanywhere.com"]
+
 DATABASES = {
     # 'default': {
     #     'ENGINE': 'django.db.backends.sqlite3',
