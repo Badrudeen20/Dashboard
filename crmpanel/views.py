@@ -4,6 +4,8 @@ from .models import Module
 # Create your views here.
 from django.http import HttpResponse
 from django.template import loader
+from django.conf.urls.static import static 
+from django.conf import settings 
 
 def home(request):
   modules = Module.objects.all().values()
