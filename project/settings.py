@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "salah99.pythonanywhere.com"]
+ALLOWED_HOSTS = ["salah99.pythonanywhere.com"]
 DATABASES = {
     # 'default': {
     #     'ENGINE': 'django.db.backends.sqlite3',
